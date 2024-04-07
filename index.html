@@ -34,7 +34,7 @@
 
 
             <div class="btn-contato">
-                <a href="mailto:Ofcsamuelromao@gmail.com">
+                <a href="#contato">
                     <button>Contato</button>
 
                 </a>
@@ -56,7 +56,7 @@
                             valoriza a inovação e busca crescer de forma colaborativa.</p>
 
                             <div class="btn-contato">
-                                <a href="mailto:Ofcsamuelromao@gmail.com">
+                                <a href="#contato">
                                     <button>Entre em contato</button>
                                 </a>
                             </div>
@@ -189,8 +189,26 @@
 
     </section><!--portifolio-->
 
-    
+
+    <section id="contato" class="formulario"> 
+        <div class="interface">
+            <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+            
+            <form action="https://formsubmit.co/ofc.samuelromao@gmail.com" method="POST">
+                <input class="input" type="text" name="nome"  id="nome" placeholder="Seu nome completo" required>
+                <input type="text" name="email" id="email" placeholder="Seu email" required>
+                <input type="text" name="telefone" id="telefone" placeholder="Seu celular (opcional)">
+                
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Sua mensagem" required></textarea>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:3000/obrigado.html"/>
+                <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+
+            </form><!--form-->
         </div><!--interface-->
+    </section><!--formulario-->
+
+    
     
 
     <footer>
