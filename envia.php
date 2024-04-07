@@ -8,7 +8,7 @@ $assunto = "contato - Agencia SML";
 
 $corpo = "nome: " . $nome . "\n" . "E-mail: " . $email . "\n" . "telefone" . $telefone;
 
-$cabeca = "from: ofc.samuelromao@gmail.com" . "\n" . "Reply-to" . $email . "\n" . "X=Mailer:PHP/" . phpversion();
+$cabeca = "From: ofc.samuelromao@gmail.com" . "\n" . "Reply-to: " . $email . "\n" . "X=Mailer:PHP/" . phpversion();
 
 if (mail($para, $assunto, $corpo, $cabeca)) {
     echo ("E-mail enviado com sucesso!");
