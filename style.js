@@ -14,10 +14,3 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
-
-let btnmenu = document.getElementById('btn-menu');
-let menu = document.getElementById('menu-mobile');
-
-btnmenu.addEventListener('click', function() {
-    menu.classList.toggle('abrir-menu');
-});
